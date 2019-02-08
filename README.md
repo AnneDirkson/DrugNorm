@@ -1,4 +1,4 @@
-#Normalizing drug names to a single generic drug name
+# Normalizing drug names to a single generic drug name
 
 Requirements: MySQL version 5.5 and an account on MySQL. Make sure that mySQL has started on your computer (for Windows: check Services to see if the service has started).
 
