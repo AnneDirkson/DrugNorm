@@ -14,6 +14,6 @@ https://www.nlm.nih.gov/research/umls/implementation_resources/scripts/index.htm
 
 The transform_rxnorm_lexicon script (Python 2) can transform the rxnorm database into a dictionary that can be used with the DrugNorm class. There are two output files: a dictionary which allows for repeats in the name of a drug (e.g. gleevec pill gleevec) and one that does not. 
 
-The DrugNorm module first subsets the dictionary for the drug names that are in your corpus and then uses simple matching to replace them by the generic drug name chosen as a key in the dictionary. 
+The DrugNorm script (Python 3) first subsets the dictionary for the drug names that are in your corpus and then uses simple matching to replace them by the generic drug name chosen as a key in the dictionary. 
 
 These tools were originally developed for dealing with medical social media.
